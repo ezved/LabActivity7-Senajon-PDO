@@ -1,0 +1,4 @@
+# Keep the setup SQL file from being served as a public web page.
+<Files "database.sql">
+    Require all denied
+</Files>
